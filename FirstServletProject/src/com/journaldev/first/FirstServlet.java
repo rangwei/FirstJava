@@ -34,7 +34,7 @@ public class FirstServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		PrintWriter out = response.getWriter();
 		Date date = new Date();
-		out.println(HTML_START + "<h2>Hi World!</h2><br/><h3>Date="+date +"</h3>"+HTML_END);
+		out.println(HTML_START + "<h2>Hi nihao!</h2><br/><h3>Date="+date +"</h3>"+HTML_END);
 	}
 
 	/**
